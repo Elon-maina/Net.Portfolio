@@ -554,11 +554,20 @@ h3 {
   background-position: center;
 }
 
-.secure-preview {
+.powr-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background:
-    radial-gradient(circle at 50% 42%, rgba(255,255,255,0.85) 0 10%, transparent 10.5%),
-    linear-gradient(135deg, rgba(6, 102, 229, 0.78), rgba(5, 38, 92, 0.7)),
-    linear-gradient(45deg, #dff5ff, #ffffff);
+    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.12) 0 35%, transparent 36%),
+    linear-gradient(135deg, #0b1b3a, #0a2a5c 55%, #0d3b7a);
+}
+
+.powr-preview img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35));
 }
 
 .project-screenshot img {
