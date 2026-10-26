@@ -1,6 +1,7 @@
 // Typing Effect
 const typingTarget = document.querySelector("#typing-text");
 const roles = [
+  "IT Manager & AI Engineer",
   "Claude Engineer",
   "Fullstack Developer",
   "Node.js Developer",
