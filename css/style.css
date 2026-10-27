@@ -1115,3 +1115,22 @@ h3 {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Phones: blur effects behind the sticky header and cards are redrawn on every
+   scroll and can make mobile browsers drop and reload the page. Use solid panels. */
+@media (max-width: 820px), (hover: none) {
+  .glass-panel,
+  .site-header,
+  .gallery-overlay {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .site-header {
+    background: rgba(255, 255, 255, 0.97);
+  }
+
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.94);
+  }
+}

@@ -124,13 +124,13 @@ const galleryItems = [
   {
     title: "Kabati Poster",
     category: "posters",
-    src: "images/designs/posters/kabati.png",
+    src: "images/designs/posters/kabati.jpg",
     label: "Poster"
   },
   {
     title: "PFS Poster",
     category: "posters",
-    src: "images/designs/posters/pfs.png",
+    src: "images/designs/posters/pfs.jpg",
     label: "Poster"
   },
   {
